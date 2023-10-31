@@ -2,6 +2,41 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
 
+# Install  NodeJs and Angular 16/latest using CLI
+
+## Install Node.js
+
+1. **Download Node.js:** Visit the official Node.js website (https://nodejs.org/), and download the LTS (Long-Term Support) version, which is recommended for most users.
+   Ensure you download the version compatible with your operating system (Windows, macOS, or Linux).
+2. **Install Node.js:** Run the downloaded installer and follow the installation prompts. On Windows, you can accept the default settings in most cases.
+   On macOS or Linux, you may need to use a package manager like Homebrew or apt to install Node.js.
+3. **Verify Installation:** Open your terminal or command prompt and run the following commands to verify that Node.js and npm (Node Package Manager) were installed successfully:
+
+```shell
+node -v
+npm -v
+```
+These commands should display the installed Node.js and npm versions.
+
+OR 
+```shell
+npm install -g n 
+n stable 
+n latest 
+n lts 
+node -v
+```
+## Install Angular CLI
+1. **Open a Terminal/Command Prompt:** Make sure you have a terminal or command prompt open.
+2. **Install Angular CLI:** Run the following command to install the Angular Command Line Interface (CLI) globally on your system:
+- npm install -g @angular/cli@latest
+- npm install --save-dev @angular/cli@latest
+3. **Verify Angular CLI Installation:** After the installation is complete, you can verify it by running the following command:
+
+- ng --version
+
+This command should display the installed Angular CLI version, as well as information about Angular.
+
 # Angular 16 Course CRUD Application
 
 - The `App` component is a container with `router-outlet`. It has navbar that links to routes paths via routerLink.
@@ -16,6 +51,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Angular HttpClient
 - Angular Router
 - Bootstrap 4
+- Node Js 18v
 
 # Project Layout
 
